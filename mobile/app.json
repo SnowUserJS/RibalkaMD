@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "rybalkamd",
+    "slug": "rybalka-md",
+    "description": "Мое первое приложение expo",
+    "privacy": "public",
+    "sdkVersion": "40.0.0",
+    "platforms": [
+      "android", "ios", "web"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.android.ribalkamd"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "RibalkaMD",
+  "version": "0.1.0",
+  "description": "Пример клиента Electron для книги JavaScript Everywhere приложение RibalkaMD",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron src/index.js",
+    "final": "electron final/index.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+	 "build": {
+	 "appId": "site.megahealth.ribalkamd",
+	 "productName": "RibalkaMD",
+	 "directories": {
+	"buildResources": "resources"
+	}
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnowUserJS/PescuitMoldova"
+  },
+  "author": "Machedonschii Alexandr <ehnaton2000@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SnowUserJS/PescuitMoldova/issues"
+  },
+  "homepage": "https://www.megahealth.site/",
+  "devDependencies": {
+    "electron": "6.0.0",
+    "electron-builder": "21.2.0",
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2"
+  },
+  "dependencies": {
+    "electron-util": "0.12.1"
+  }
+}
